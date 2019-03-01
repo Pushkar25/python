@@ -1,0 +1,16 @@
+arr=[]
+i=-1
+print(type(i))
+x=input("enter something")
+print(x)
+for char in x:
+    i=i+1
+    print("i="+ str(i)+char)
+    if char>='a' and char<='z':
+        arr[i]=char
+        print(list(arr))
+    elif char>='A' and char<='Z':
+        arr[i]=char
+    else :
+        arr[i]=char
+print(arr)
